@@ -2,7 +2,7 @@ cask "betterdisplay" do
   version "3.5.6b"
   sha256 "ec581f596723dea8fdd92c7336b6f1674b296238972ed09f1867cb4b7526aae7"
 
-  url "https://github.com/waydabber/BetterDisplay/releases/download/v#{version}/BetterDisplay-v#{version}.dmg",
+  url "https://github.com/waydabber/BetterDisplay/releases/download/v3.5.6/BetterDisplay-v#{version}.dmg",
       verified: "github.com/waydabber/BetterDisplay/"
   name "BetterDisplay"
   desc "Display management tool"
