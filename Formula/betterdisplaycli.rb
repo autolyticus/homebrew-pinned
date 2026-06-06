@@ -3,7 +3,7 @@ class Betterdisplaycli < Formula
   homepage "https://github.com/waydabber/betterdisplaycli"
 
   url "https://github.com/autolyticus/homebrew-pinned/releases/download/betterdisplaycli/betterdisplaycli-macos.tar.gz"
-  sha256 "b46d97d18ba86c52cebd8fce85edd5a1f1058ee512637011bd68781742a531de"
+  sha256 "c7d5cf6d6eb097a23ecae87003b97a2a6a1503991a7cc34265fcb231f6083a9e"
   version "1.1.0"
   license "MIT"
 
