@@ -3,13 +3,13 @@ class Betterdisplaycli < Formula
   homepage "https://github.com/waydabber/betterdisplaycli"
 
   url "https://github.com/autolyticus/homebrew-pinned/releases/download/betterdisplaycli/betterdisplaycli-macos.tar.gz"
-  sha256 "c943f391817d53fadb67ad579dd93f03fb922837bed3db45d456882d082d0368"
+  sha256 "b46d97d18ba86c52cebd8fce85edd5a1f1058ee512637011bd68781742a531de"
   version "1.1.0"
   license "MIT"
 
   def install
     # Install the pre-compiled binary into Homebrew's bin path
-    bin.install "bin/betterdisplaycli"
+    bin.install "betterdisplaycli"
   end
 
   def post_install
