@@ -8,18 +8,9 @@ class Betterdisplaycli < Formula
   license "MIT"
 
   def install
+    quiet_system "xattr", "-d", "com.apple.quarantine", "betterdisplaycli"
     # Install the pre-compiled binary into Homebrew's bin path
     bin.install "betterdisplaycli"
-  end
-
-  def post_install
-    # Strip the Gatekeeper quarantine attribute so it runs without
-    # the "developer cannot be verified" prompt.
-    # Using a guard so the install doesn't fail if the attribute isn't present.
-    system "xattr", "-d", "com.apple.quarantine", "#{bin}/betterdisplaycli"
-  rescue
-    # The attribute may not exist; ignore the error so installation succeeds.
-    nil
   end
 
   test do
