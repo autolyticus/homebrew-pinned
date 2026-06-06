@@ -9,7 +9,7 @@ class Betterdisplaycli < Formula
 
   def install
     # Install the pre-compiled binary into Homebrew's bin path
-    bin.install "betterdisplaycli"
+    bin.install "#{bin}/betterdisplaycli"
   end
 
   def post_install
