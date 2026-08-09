@@ -17,6 +17,14 @@ cask "timezony" do
 
   app "Timezony.app"
 
+  # Since the app is not notarized and causes a Gatekeeper quarantine error,
+  # remove the quarantine attribute upon installation.
+  postflight do
+    system_command "xattr",
+                   args: ["-rd", "com.apple.quarantine", "#{appdir}/Timezony.app"],
+                   sudo: false
+  end
+
   uninstall quit: "com.timezony.app"
 
   zap trash: [
