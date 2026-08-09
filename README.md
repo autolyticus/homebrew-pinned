@@ -9,5 +9,5 @@ Took waydabber/betterdisplaycli compiled it and made it into a Cask, since I don
 Similarly, I wanted to pin and force the version of betterdisplay to be a specific one, so I have one for betterdisplay as well.
 
 
-## timezony
-Added cask for Timezony, a delightful macOS menu bar app for tracking multiple timezones.
+## multitimebar
+Added cask for MultiTimeBar, a native macOS menu bar app for tracking multiple time zones.
