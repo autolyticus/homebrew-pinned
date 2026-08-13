@@ -1,6 +1,6 @@
 cask "soundsource" do
   version "5.6.0"
-  sha256 "bd7299be7f0b5d1e21b72b6ef26e7a2a0eb9475dd2b1b3fbdb5ea4f0280ebdbb"
+  sha256 "20faab862bc85b34c0543a39c0a0dd82509ea1a66f34e580be4bd672b20c75ab"
 
   url "https://rogueamoeba.com/legacy/downloads/SoundSource-560.zip",
       verified: "rogueamoeba.com/legacy/downloads/"
