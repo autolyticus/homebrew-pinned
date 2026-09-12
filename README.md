@@ -11,3 +11,6 @@ Similarly, I wanted to pin and force the version of betterdisplay to be a specif
 
 ## multitimebar
 Added cask for MultiTimeBar, a native macOS menu bar app for tracking multiple time zones.
+
+## soundsource
+Pinned cask for SoundSource legacy version 5 (v5.9.0) from Rogue Amoeba's legacy archive.
